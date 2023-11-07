@@ -1,0 +1,16 @@
+Resolucion de Operadores En Pseint
+Ejemplo: "Resultado",!(((6*12)>=66 Y 7<=9||(5<>2) Y 50/2<=100));
+
+Operadores
+                       Solucion:
+                    !(((6*12)>=66 Y 7<=9)||(5<>2) Y 50/2<=100))
+1.-()               !(( 72>=66 Y 7<=9)||(5<>2) Y 50/2<=100))
+2.-|                !((verdadero Y 7<=9)||(5<>2) Y 50/2<=100))
+3.-*/%              !((verdadero Y verdadero)||(5<>2) Y 50/2<=100))
+4.-+-               !(verdadero||(5<>2 Y (50/2)<=100))
+5.-><>=<=           !(verdadero||/5<>2 Y 25<=100))
+6.-==!=o<>          !(verdadero||(5<>2 Y verdadero ))  
+7.-and(YY)          !(verdadero||(verdadero Y verdadero))   
+                    !(verdadero||(verdadero)
+                    !(Verdadero
+                    Falso         
